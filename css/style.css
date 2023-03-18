@@ -785,7 +785,7 @@ a {
 }
 @media screen and (max-width: 967px) {
   .footer {
-    height: 160vh;
+    height: 155vh;
   }
   .footer .footer-content {
     flex-direction: column;
