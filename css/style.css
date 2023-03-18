@@ -788,8 +788,11 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2em;
   }
-
+  .footer .newsletter button {
+    padding: 0.8em 1em;
+  }
   .footer a {
     color: #fff;
     text-decoration: none;
