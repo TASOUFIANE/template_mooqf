@@ -571,7 +571,7 @@ a {
 }
 @media screen and (max-width: 967px) {
   .testimontals {
-    height: 150vh;
+    height: 120vh;
   }
   .child {
     flex: 100%;
