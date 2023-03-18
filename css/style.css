@@ -570,6 +570,9 @@ a {
   font-size: 14px;
 }
 @media screen and (max-width: 967px) {
+  .testimontals {
+    height: 180vh;
+  }
   .child {
     flex: 100%;
     max-width: 80%;
@@ -651,7 +654,7 @@ a {
 }
 @media screen and (max-width: 967px) {
   .hero {
-    height: 100vh;
+    height: 150vh;
   }
   .banner {
     flex-direction: column;
