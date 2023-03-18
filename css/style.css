@@ -784,6 +784,9 @@ a {
   background: #fff;
 }
 @media screen and (max-width: 967px) {
+  .footer {
+    height: 150vh;
+  }
   .footer .footer-content {
     flex-direction: column;
     justify-content: center;
