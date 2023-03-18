@@ -464,6 +464,9 @@ a {
   margin-right: 0.6em;
 }
 @media screen and (max-width: 800px) {
+  .villes {
+    height: 150vh;
+  }
   .villes .container {
     display: flex;
     flex-direction: column;
@@ -486,7 +489,7 @@ a {
 /*********************Testimontels Start**********************/
 .testimontals {
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   text-align: center;
   margin-top: 1em;
