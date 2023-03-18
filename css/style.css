@@ -571,7 +571,7 @@ a {
 }
 @media screen and (max-width: 967px) {
   .testimontals {
-    height: 180vh;
+    height: 150vh;
   }
   .child {
     flex: 100%;
@@ -679,6 +679,7 @@ a {
     border-left: none;
     flex-direction: row;
     border-top: 4px solid #1a1e67;
+    margin-top: 3em;
   }
   /* .content-group .content {
     width: 33%;
