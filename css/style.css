@@ -365,7 +365,7 @@ a {
   }
   .jobs .container .job-row .job span {
     padding-top: 2em;
-    margin-bottom: 1em;
+    margin-top: 1em;
     font-size: large;
   }
   .jobs h1:after {
@@ -471,6 +471,7 @@ a {
   }
   .villes .container .bigcity {
     width: 100%;
+    height: 40%;
     margin: 0 20px;
   }
   .villes .container .cites {
