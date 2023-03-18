@@ -787,6 +787,10 @@ a {
   .footer {
     height: 155vh;
   }
+  .left-area {
+    width: 100%;
+    margin-bottom: 3em;
+  }
   .footer .footer-content {
     flex-direction: column;
     justify-content: center;
