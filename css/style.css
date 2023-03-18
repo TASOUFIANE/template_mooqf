@@ -344,7 +344,7 @@ a {
   font-size: larger;
   bottom: 0;
   left: 50%;
-  transform: translate(-65%, 60%);
+  transform: translate(-50%, 60%);
   margin-top: 0;
 }
 @media screen and (max-width: 980px) {
@@ -366,7 +366,7 @@ a {
   .jobs .container .job-row .job span {
     padding-top: 2em;
     margin-top: 1em;
-    font-size: large;
+    font-size: 18px;
   }
   .jobs h1:after {
     margin-bottom: 0em;
