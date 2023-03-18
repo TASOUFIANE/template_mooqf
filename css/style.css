@@ -785,16 +785,16 @@ a {
 }
 @media screen and (max-width: 967px) {
   .footer {
-    height: 150vh;
+    height: 180vh;
   }
   .footer .footer-content {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  /* .footer .newsletter button {
+  .footer .newsletter button {
     padding: 0.8em 1em;
-  } */
+  }
   .footer a {
     color: #fff;
     text-decoration: none;
@@ -812,7 +812,7 @@ a {
     margin-top: 0.5em;
   }
   .footer .newsletter h3 {
-    margin-top: 1em;
+    margin-top: 4em;
     text-align: center;
     padding-top: 1em;
   }
