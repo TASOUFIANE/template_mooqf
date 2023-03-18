@@ -785,7 +785,7 @@ a {
 }
 @media screen and (max-width: 967px) {
   .footer {
-    height: 180vh;
+    height: 160vh;
   }
   .footer .footer-content {
     flex-direction: column;
@@ -793,7 +793,7 @@ a {
     align-items: center;
   }
   .footer .newsletter button {
-    padding: 0.8em 1em;
+    padding: 0.6em 1em;
   }
   .footer a {
     color: #fff;
