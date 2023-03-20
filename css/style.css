@@ -54,7 +54,7 @@ header {
 }
 
 .logo {
-  width: 100px;
+  width: 200px;
   margin-left: 2em;
 }
 .lang-menu {
@@ -195,6 +195,10 @@ a {
   color: #fff;
   font-weight: 600;
   margin-left: 1em;
+  cursor: pointer;
+}
+.header-body button:hover {
+  background-color: #11ae7f;
 }
 .menu-mobile {
   display: none;
@@ -215,6 +219,9 @@ a {
     flex-direction: column;
     justify-content: center;
     margin-left: -200%;
+  }
+  .logo {
+    width: 150px;
   }
   .nav-links .menu-mobile {
     margin-left: 0 !important;
@@ -306,6 +313,9 @@ a {
   margin-top: 2.5em;
   cursor: pointer;
 }
+.jobs a:hover {
+  background-color: #11ae7f;
+}
 .jobs .container {
   width: 80%;
   height: 80%;
@@ -344,7 +354,7 @@ a {
   font-size: larger;
   bottom: 0;
   left: 50%;
-  transform: translate(-50%, 60%);
+  transform: translate(-70%, 5%);
   margin-top: 0;
 }
 @media screen and (max-width: 980px) {
@@ -707,6 +717,9 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.footer-logo {
+  width: 250px;
 }
 .footer ul {
   list-style: none;
