@@ -57,7 +57,8 @@ header {
 
 .logo {
   width: 200px;
-  margin-left: 2em;
+  margin-left: 1em;
+  margin-top: 0.5em;
 }
 .lang-menu {
   display: flex;
