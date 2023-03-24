@@ -1585,9 +1585,9 @@ a {
     height: 20%;
   }
   .projet a {
-    position: absolute;
-    width: 30%;
+    width: 40%;
     height: 15%;
+    margin-top: 5px;
   }
   .projets-group .title a {
     width: 30%;
