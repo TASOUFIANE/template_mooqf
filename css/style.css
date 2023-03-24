@@ -865,6 +865,10 @@ a {
   .footer .newsletter button {
     height: 40px;
   }
+  .footer .newsletter button {
+    padding: 0em 1em;
+    top: 50%;
+  }
 }
 /*************************Footer End*************************/
 /*************************2nd Page Start*************************/
