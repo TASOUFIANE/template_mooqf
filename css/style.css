@@ -26,7 +26,7 @@ body {
 }
 header {
   width: 100%;
-  height: 23vh;
+  height: 140px;
   padding-top: 0em;
   display: flex;
   flex-direction: column;
@@ -734,7 +734,7 @@ a {
   align-items: center;
 }
 .footer-logo {
-  width: 250px;
+  width: 260px;
 }
 .footer ul {
   list-style: none;
@@ -815,7 +815,7 @@ a {
 }
 @media screen and (max-width: 967px) {
   .footer {
-    height: 120vh;
+    height: 100vh;
     text-align: center;
   }
   .left-area {
@@ -863,8 +863,12 @@ a {
 }
 @media screen and (max-width: 790px) {
   .footer .newsletter button {
-    height: 38px;
-    top: 63%;
+    height: 2.9em;
+    top: 60%;
+    margin-right: 2.5em;
+  }
+  .footer .newsletter input {
+    width: 80%;
   }
 }
 /*************************Footer End*************************/
@@ -1583,8 +1587,19 @@ a {
 }
 @media screen and (max-width: 880px) {
   .projets {
-    height: 400vh;
+    height: 300vh;
   }
+  .projets .search-bar {
+    width: 100%;
+    height: 2%;
+    background: #1a1e67;
+    margin: 0em 0;
+    padding: 2em 0em;
+  }
+  .projets .search-bar form {
+    width: 100%;
+  }
+
   .projets-group-list .projet {
     width: 80%;
     height: 8%;
@@ -1594,9 +1609,14 @@ a {
     height: 15%;
     bottom: 8%;
   }
+  .projets-group .title h1 {
+    font-size: 20px;
+  }
   .projets-group .title a {
     width: 25%;
     font-size: 12px;
+    padding-top: 5px;
+    margin-left: 10px;
   }
   .projet span {
     margin-bottom: 10px;
