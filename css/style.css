@@ -1587,11 +1587,13 @@ a {
   .projet a {
     width: 45%;
     height: 15%;
-    margin-top: 20px;
   }
   .projets-group .title a {
     width: 30%;
     font-size: 12px;
+  }
+  .projet span {
+    margin-bottom: 10px;
   }
   .projets .search-bar button {
     width: 24%;
