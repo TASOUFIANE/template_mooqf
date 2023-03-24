@@ -1593,4 +1593,8 @@ a {
     width: 30%;
     font-size: 12px;
   }
+  .projets .search-bar button {
+    width: 20%;
+    height: 3em;
+  }
 }
