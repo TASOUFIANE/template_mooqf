@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mooqf</title>
     <link
@@ -14,11 +15,11 @@
     />
     <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
+  <body style="background-color: #f5f5f5 !important">
     <button onclick="topFunction()" id="myBtn" title="Go to top">
       <i class="uil uil-arrow-up" style="font-size: 30px"></i>
     </button>
-    <header>
+    <header class="navbar">
       <div class="top-bar">
         <div class="logo-menu">
           <a href="#" style="padding: 1em 2em"
@@ -34,11 +35,8 @@
           <div class="lang-menu">
             <span class="fi fi-ma"></span>
             <a href="#"><div class="selected">Arabe</div></a>
-            <!-- <i class="uil uil-angle-down" style="font-size: 20px"></i> -->
             <div class="lang-dropdown">
-              <a href="#" style="padding-right: 10px"
-                ><span class="fi fi-ma"></span> Arabe</a
-              >
+              <a href="#"><span class="fi fi-ma"></span> Arabe</a>
               <a href="#"><span class="fi fi-fr"></span> French</a>
               <a href="#"><span class="fi fi-us"></span> English</a>
             </div>
@@ -64,8 +62,9 @@
         <a href="#"><i class="uil uil-telegram-alt first"></i> Devise</a>
         <a href="#"><i class="uil uil-comments second"></i> Conseils</a>
       </div>
-      <div class="header-body">
-        <h1>Trouvez un maalam pour réaliser vos travaux</h1>
+    </header>
+    <section class="maalames">
+      <div class="search-bar">
         <form action="" method="">
           <select name="travaux" id="travaux">
             <option value="" disabled selected hidden>
@@ -80,187 +79,364 @@
           <button type="submit">Trouver</button>
         </form>
       </div>
-    </header>
-    <section class="jobs">
-      <h1>Recherche par métier</h1>
-      <div class="container">
-        <div class="job-row">
-          <div class="job">
-            <img src="images/aluminum.jpg" alt="img" />
-            <span>ALUMINUM</span>
-          </div>
-          <div class="job">
-            <img src="images/parab.jpg" alt="img" />
-            <span>PARABOLE--TV</span>
-          </div>
-          <div class="job">
-            <img src="images/maconne.jpg" alt="img" />
-            <span>MACONNERIE</span>
-          </div>
-          <div class="job">
-            <img src="images/clima.jpg" alt="img" />
-            <span>CLIMATISATION</span>
-          </div>
-        </div>
-        <div class="job-row">
-          <div class="job">
-            <img src="images/jardinage.png" alt="img" />
-            <span>JARDINAGE</span>
-          </div>
-          <div class="job">
-            <img src="images/camera.jpg" alt="img" />
-            <span>CAMERA</span>
-          </div>
-          <div class="job">
-            <img src="images/electro.jpg" alt="img" />
-            <span>ELECTROMENAGER</span>
-          </div>
-          <div class="job">
-            <img src="images/plomberie.jpg" alt="img" />
-            <span>PLOMBERIE</span>
-          </div>
-        </div>
-      </div>
-      <a href="">Voir Plus</a>
-    </section>
-    <section class="villes">
-      <div class="container">
-        <div class="bigcity">
-          <a href="#"><img src="images/agadir.jpg" alt="" /></a>
-          <span>AGADIR</span>
-        </div>
-        <div class="cites">
-          <div class="cites-group">
-            <div class="city">
-              <a href="#"><img src="images/tanger.jpg" alt="" /></a>
-              <span>TANGER</span>
-            </div>
-            <div class="city">
-              <a href="#"><img src="images/tanger.jpg" alt="" /></a>
-              <span>TANGER</span>
-            </div>
-          </div>
-          <div class="cites-group">
-            <div class="city">
-              <a href="#"><img src="images/tanger.jpg" alt="" /></a>
-              <span>TANGER</span>
-            </div>
-            <div class="city">
-              <a href="#"><img src="images/tanger.jpg" alt="" /></a>
-              <span>TANGER</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="testimontals">
-      <div class="inner">
-        <div class="Title">
-          <h1>Vos avis sur nos maallems</h1>
-          <span></span>
-        </div>
-        <div class="row">
-          <div class="child">
-            <div class="testimontal">
-              <a href="#"><img src="images/testimontal.png" alt="" /></a>
-              <div class="name">Ali Yons</div>
-              <div class="bar"></div>
-              <div class="stars">
-                <i class="uil uil-star"></i>
-                <i class="uil uil-star"></i>
-                <i class="uil uil-star"></i>
-                <i class="uil uil-star"></i>
-              </div>
-              <p>
-                "Lorem ipsum iusto placeat hic maiores?Lorem ipsum iusto placeat
-                hic maiores?Lorem ipsum iusto placeat hic maiores?
-              </p>
-            </div>
-          </div>
-          <div class="child">
-            <div class="testimontal">
-              <img src="images/testimontal1.png" alt="" />
-              <div class="name">Ali Yons</div>
-              <div class="bar"></div>
-              <div class="stars">
-                <i class="uil uil-star"></i>
-                <i class="uil uil-star"></i>
-                <i class="uil uil-star"></i>
-                <i class="uil uil-star"></i>
-              </div>
-              <p>
-                "Lorem ipsum iusto placeat hic maiores?Lorem ipsum iusto placeat
-                hic maiores?Lorem ipsum iusto placeat hic maiores?"
-              </p>
-            </div>
-          </div>
-          <div class="child third">
-            <div class="testimontal">
-              <img src="images/testimontal2.png" alt="" />
-              <div class="name">Ali Yons</div>
-              <div class="bar"></div>
-              <div class="stars">
-                <i class="uil uil-star"></i>
-                <i class="uil uil-star"></i>
-                <i class="uil uil-star"></i>
-                <i class="uil uil-star"></i>
-              </div>
-              <p>
-                "Lorem ipsum iusto placeat hic maiores?Lorem ipsum iusto placeat
-                hic maiores?Lorem ipsum iusto placeat hic maiores?"
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="hero">
       <div class="banner">
-        <div class="hero-content-left">
-          <h2>Rejoignez notre communauté</h2>
-          <p>
-            Lorem cetur adipisicing elit.Loremt.Lorem ipsu elit.Lorem ipsum
-            dolt.Lorem ipsu elit.Lorem ipsum dolt.Lorem ipsu elit.Lorem ipsum
-            dolt.Lorem ipsu elit.Lorem ipsum dol ipsu elit.Lorem ipsum dolor sit
-            amet consectetur adipisicing elit.Quisquam,
-            voluptate.gctdytdytdytdytdydyydtk
-          </p>
-        </div>
-        <div class="hero-content">
-          <div>
-            <h2>Comment ça Marche ?</h2>
+        <div class="maalam">
+          <div class="maalam-img">
+            <img src="images/maalam.png" alt="" />
           </div>
-          <div class="content-group">
-            <div class="content">
-              <div>
-                <h4>Recommandé par la communauté</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quisquam, voluptate.gctdytdytdytdytdydyydtk
-                </p>
-              </div>
+          <div class="maalam-name">
+            <h3>Your name</h3>
+            <div class="ratings">
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
             </div>
-            <div class="content">
-              <div>
-                <h4>Recommandé par la communauté</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quisquam, voluptate.gctdytdytdytdytdydyydtk
-                </p>
-              </div>
-            </div>
-            <div class="content">
-              <div class="icon"></div>
-              <div class="text">
-                <h4>Recommandé par la communauté</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Quisquam, voluptate.gctdytdytdytdytdydyydtk
-                </p>
-              </div>
-            </div>
+            <span style="color: rgb(84, 84, 211)">Particuler</span>
+          </div>
+          <div class="maalam-info">
+            <span><i class="uil uil-wrench"></i> Aluminum</span>
+            <span>
+              <i class="uil uil-calendar-alt"></i> 19 ans d'expérience
+            </span>
+            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
           </div>
         </div>
+        <div class="maalam">
+          <div class="maalam-img">
+            <img src="images/maalam.png" alt="" />
+          </div>
+          <div class="maalam-name">
+            <h3>Your name</h3>
+            <div class="ratings">
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+            </div>
+            <span style="color: rgb(84, 84, 211)">Particuler</span>
+          </div>
+          <div class="maalam-info">
+            <span><i class="uil uil-wrench"></i> Aluminum</span>
+            <span>
+              <i class="uil uil-calendar-alt"></i> 19 ans d'expérience
+            </span>
+            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
+          </div>
+        </div>
+        <div class="maalam">
+          <div class="maalam-img">
+            <img src="images/maalam.png" alt="" />
+          </div>
+          <div class="maalam-name">
+            <h3>Your name</h3>
+            <div class="ratings">
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+            </div>
+            <span style="color: rgb(84, 84, 211)">Particuler</span>
+          </div>
+          <div class="maalam-info">
+            <span><i class="uil uil-wrench"></i> Aluminum</span>
+            <span>
+              <i class="uil uil-calendar-alt"></i> 19 ans d'expérience
+            </span>
+            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
+          </div>
+        </div>
+        <div class="maalam">
+          <div class="maalam-img">
+            <img src="images/maalam.png" alt="" />
+          </div>
+          <div class="maalam-name">
+            <h3>Your name</h3>
+            <div class="ratings">
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+            </div>
+            <span style="color: rgb(84, 84, 211)">Particuler</span>
+          </div>
+          <div class="maalam-info">
+            <span><i class="uil uil-wrench"></i> Aluminum</span>
+            <span>
+              <i class="uil uil-calendar-alt"></i> 19 ans d'expérience
+            </span>
+            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
+          </div>
+        </div>
+        <div class="maalam">
+          <div class="maalam-img">
+            <img src="images/maalam.png" alt="" />
+          </div>
+          <div class="maalam-name">
+            <h3>Your name</h3>
+            <div class="ratings">
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+            </div>
+            <span style="color: rgb(84, 84, 211)">Particuler</span>
+          </div>
+          <div class="maalam-info">
+            <span><i class="uil uil-wrench"></i> Aluminum</span>
+            <span>
+              <i class="uil uil-calendar-alt"></i> 19 ans d'expérience
+            </span>
+            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
+          </div>
+        </div>
+        <div class="maalam">
+          <div class="maalam-img">
+            <img src="images/maalam.png" alt="" />
+          </div>
+          <div class="maalam-name">
+            <h3>Your name</h3>
+            <div class="ratings">
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+            </div>
+            <span style="color: rgb(84, 84, 211)">Particuler</span>
+          </div>
+          <div class="maalam-info">
+            <span><i class="uil uil-wrench"></i> Aluminum</span>
+            <span>
+              <i class="uil uil-calendar-alt"></i> 19 ans d'expérience
+            </span>
+            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
+          </div>
+        </div>
+        <div class="maalam">
+          <div class="maalam-img">
+            <img src="images/maalam.png" alt="" />
+          </div>
+          <div class="maalam-name">
+            <h3>Your name</h3>
+            <div class="ratings">
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+            </div>
+            <span style="color: rgb(84, 84, 211)">Particuler</span>
+          </div>
+          <div class="maalam-info">
+            <span><i class="uil uil-wrench"></i> Aluminum</span>
+            <span>
+              <i class="uil uil-calendar-alt"></i> 19 ans d'expérience
+            </span>
+            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
+          </div>
+        </div>
+        <div class="maalam">
+          <div class="maalam-img">
+            <img src="images/maalam.png" alt="" />
+          </div>
+          <div class="maalam-name">
+            <h3>Your name</h3>
+            <div class="ratings">
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+            </div>
+            <span style="color: rgb(84, 84, 211)">Particuler</span>
+          </div>
+          <div class="maalam-info">
+            <span><i class="uil uil-wrench"></i> Aluminum</span>
+            <span>
+              <i class="uil uil-calendar-alt"></i> 19 ans d'expérience
+            </span>
+            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
+          </div>
+        </div>
+        <div class="maalam">
+          <div class="maalam-img">
+            <img src="images/maalam.png" alt="" />
+          </div>
+          <div class="maalam-name">
+            <h3>Your name</h3>
+            <div class="ratings">
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+            </div>
+            <span style="color: rgb(84, 84, 211)">Particuler</span>
+          </div>
+          <div class="maalam-info">
+            <span><i class="uil uil-wrench"></i> Aluminum</span>
+            <span>
+              <i class="uil uil-calendar-alt"></i> 19 ans d'expérience
+            </span>
+            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
+          </div>
+        </div>
+        <div class="maalam">
+          <div class="maalam-img">
+            <img src="images/maalam.png" alt="" />
+          </div>
+          <div class="maalam-name">
+            <h3>Your name</h3>
+            <div class="ratings">
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+            </div>
+            <span style="color: rgb(84, 84, 211)">Particuler</span>
+          </div>
+          <div class="maalam-info">
+            <span><i class="uil uil-wrench"></i> Aluminum</span>
+            <span>
+              <i class="uil uil-calendar-alt"></i> 19 ans d'expérience
+            </span>
+            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
+          </div>
+        </div>
+        <div class="maalam">
+          <div class="maalam-img">
+            <img src="images/maalam.png" alt="" />
+          </div>
+          <div class="maalam-name">
+            <h3>Your name</h3>
+            <div class="ratings">
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+            </div>
+            <span style="color: rgb(84, 84, 211)">Particuler</span>
+          </div>
+          <div class="maalam-info">
+            <span><i class="uil uil-wrench"></i> Aluminum</span>
+            <span>
+              <i class="uil uil-calendar-alt"></i> 19 ans d'expérience
+            </span>
+            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
+          </div>
+        </div>
+        <div class="maalam">
+          <div class="maalam-img">
+            <img src="images/maalam.png" alt="" />
+          </div>
+          <div class="maalam-name">
+            <h3>Your name</h3>
+            <div class="ratings">
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+            </div>
+            <span style="color: rgb(84, 84, 211)">Particuler</span>
+          </div>
+          <div class="maalam-info">
+            <span><i class="uil uil-wrench"></i> Aluminum</span>
+            <span>
+              <i class="uil uil-calendar-alt"></i> 19 ans d'expérience
+            </span>
+            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
+          </div>
+        </div>
+        <div class="maalam">
+          <div class="maalam-img">
+            <img src="images/maalam.png" alt="" />
+          </div>
+          <div class="maalam-name">
+            <h3>Your name</h3>
+            <div class="ratings">
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+            </div>
+            <span style="color: rgb(84, 84, 211)">Particuler</span>
+          </div>
+          <div class="maalam-info">
+            <span><i class="uil uil-wrench"></i> Aluminum</span>
+            <span>
+              <i class="uil uil-calendar-alt"></i> 19 ans d'expérience
+            </span>
+            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
+          </div>
+        </div>
+        <div class="maalam">
+          <div class="maalam-img">
+            <img src="images/maalam.png" alt="" />
+          </div>
+          <div class="maalam-name">
+            <h3>Your name</h3>
+            <div class="ratings">
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+            </div>
+            <span style="color: rgb(84, 84, 211)">Particuler</span>
+          </div>
+          <div class="maalam-info">
+            <span><i class="uil uil-wrench"></i> Aluminum</span>
+            <span>
+              <i class="uil uil-calendar-alt"></i> 19 ans d'expérience
+            </span>
+            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
+          </div>
+        </div>
+        <div class="maalam">
+          <div class="maalam-img">
+            <img src="images/maalam.png" alt="" />
+          </div>
+          <div class="maalam-name">
+            <h3>Your name</h3>
+            <div class="ratings">
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+              <i class="uil uil-star"></i>
+            </div>
+            <span style="color: rgb(84, 84, 211)">Particuler</span>
+          </div>
+          <div class="maalam-info">
+            <span><i class="uil uil-wrench"></i> Aluminum</span>
+            <span>
+              <i class="uil uil-calendar-alt"></i> 19 ans d'expérience
+            </span>
+            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
+          </div>
+        </div>
+      </div>
+      <div class="pagination">
+        <a href="#" style="color: #369c7e"
+          ><i class="uil uil-angle-left"></i>
+        </a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+
+        <a href="#" style="color: #369c7e"
+          ><i class="uil uil-angle-right"></i
+        ></a>
       </div>
     </section>
     <footer class="footer">
@@ -308,6 +484,7 @@
       </div>
       <h3 class="credit">Copyright &copy; 2022 Mooqf.com</h3>
     </footer>
+
     <script src="js/script.js"></script>
   </body>
 </html>
