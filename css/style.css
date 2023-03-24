@@ -227,6 +227,7 @@ a {
   }
   .logo {
     width: 150px;
+    padding-top: 0.5em;
   }
   .nav-links .menu-mobile {
     margin-left: 0 !important;
