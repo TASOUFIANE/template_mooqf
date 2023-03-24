@@ -242,6 +242,7 @@ a {
   }
   .menu-toggle span {
     font-size: 12px;
+    margin-left: 1em;
   }
   .logo-menu {
     flex-direction: row-reverse;
