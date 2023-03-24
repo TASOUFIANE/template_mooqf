@@ -861,6 +861,11 @@ a {
     text-align: center;
   }
 }
+@media screen and (max-width: 790px) {
+  .footer .newsletter button {
+    height: 40px;
+  }
+}
 /*************************Footer End*************************/
 /*************************2nd Page Start*************************/
 
