@@ -1566,10 +1566,7 @@ a {
 .projet a:hover {
   background-color: #1a4492;
 }
-@media screen and (max-width: 1015px) {
-  /* .projets {
-    height: 200vh;
-  } */
+@media screen and (max-width: 1050px) {
   .projets-group-list .projet {
     width: 30%;
     height: 20%;
@@ -1578,19 +1575,27 @@ a {
     width: 20%;
     font-size: 16px;
   }
+  .projet a {
+    width: 30%;
+    height: 15%;
+    bottom: 8%;
+  }
 }
 @media screen and (max-width: 880px) {
+  .projets {
+    height: 400vh;
+  }
   .projets-group-list .projet {
     width: 80%;
-    height: 20%;
+    height: 8%;
   }
   .projet a {
     width: 45%;
     height: 15%;
-    bottom: 15%;
+    bottom: 8%;
   }
   .projets-group .title a {
-    width: 26%;
+    width: 25%;
     font-size: 12px;
   }
   .projet span {
