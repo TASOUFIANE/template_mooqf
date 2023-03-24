@@ -1396,6 +1396,7 @@ a {
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
   .banner .maalam {
     width: 100%;
