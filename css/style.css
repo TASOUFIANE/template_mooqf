@@ -863,7 +863,7 @@ a {
 }
 @media screen and (max-width: 790px) {
   .footer .newsletter button {
-    height: 2.9em;
+    height: 2.5em;
     top: 60%;
     margin-right: 2.5em;
   }
