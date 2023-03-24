@@ -1389,6 +1389,9 @@ a {
     width: 80%;
     height: 2%;
   }
+  .search-bar button {
+    width: 20%;
+  }
   .maalames .banner {
     width: 85%;
     height: 90%;
