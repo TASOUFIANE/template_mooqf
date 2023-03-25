@@ -245,6 +245,7 @@ a {
   .menu-toggle span {
     font-size: 12px;
     padding-left: 2.5em;
+    padding-top: 5px;
   }
   .logo-menu {
     flex-direction: row-reverse;
