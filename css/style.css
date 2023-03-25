@@ -268,23 +268,27 @@ a {
     margin-top: 5px;
     font-size: 18px;
   }
-  .header-body h1 {
+  .search-bars {
+    height: 270px;
+  }
+  .search-bars h1 {
     padding-left: 2em;
     font-size: 1.5em;
   }
-  .header-body form {
+  .search-bars form {
     display: flex;
     flex-direction: column !important;
+    margin-left: 4em;
   }
-  .header-body #travaux {
+  .search-bars #travaux {
     width: 80%;
   }
 
-  .header-body #ville {
+  .search-bars #ville {
     width: 60%;
   }
-  .header-body button {
-    width: 25%;
+  .search-bars button {
+    width: 30%;
   }
 }
 /*************************Jobs Section start*********/
@@ -383,9 +387,15 @@ a {
   margin-top: 0;
 }
 @media screen and (max-width: 980px) {
+  .jobs {
+    height: 160vh;
+  }
   .jobs .container {
     flex-direction: row;
     justify-content: center;
+  }
+  .jobs h1 {
+    margin-bottom: 1em;
   }
   .jobs .container .job-row {
     height: 100%;
@@ -396,7 +406,7 @@ a {
   }
   .jobs .container .job-row .job {
     width: 100%;
-    margin-bottom: 3em;
+    margin-bottom: 2.5em;
   }
   .jobs .container .job-row .job span {
     padding-top: 2em;
@@ -417,8 +427,8 @@ a {
     right: 8%;
   }
   .jobs .container .job-row .job img {
-    width: 100%;
-    height: 100%;
+    width: 85%;
+    height: 85%;
     margin-bottom: 1em;
   }
 }
@@ -512,6 +522,7 @@ a {
     width: 100%;
     height: 40%;
     margin: 0 20px;
+    margin-bottom: 0.5em;
   }
   .villes .container .cites {
     width: 100%;
@@ -519,13 +530,16 @@ a {
   .villes .container .cites .cites-group {
     padding: 0px 0px;
   }
+  .villes .container .cites .cites-group .city {
+    height: 85%;
+  }
 }
 /*********************Cites End*************************/
 
 /*********************Testimontels Start**********************/
 .testimontals {
   width: 100%;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   text-align: center;
   margin-top: 1em;
@@ -690,7 +704,8 @@ a {
 }
 @media screen and (max-width: 967px) {
   .hero {
-    height: 200vh;
+    height: 150vh;
+    width: 80%;
   }
   .banner {
     flex-direction: column;
@@ -721,7 +736,7 @@ a {
     width: 33%;
   } */
   .hero-content .content {
-    width: 100%;
+    width: 80%;
     height: 30%;
   }
 }
