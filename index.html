@@ -13,16 +13,21 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css"
     />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body style="background-color: #f5f5f5 !important">
-    <button onclick="topFunction()" id="myBtn" title="Go to top">
-      <i class="uil uil-arrow-up" style="font-size: 30px"></i>
-    </button>
     <header class="navbar">
       <div class="top-bar">
         <div class="logo-menu">
-          <a href="#" style="padding: 1.5em 1em"
+          <a href="#" style="padding: 1em 2em"
             ><img class="logo" src="images/greenblack.png"
           /></a>
           <a href="#" class="menu-toggle">
@@ -63,114 +68,36 @@
         <a href="#"><i class="uil uil-comments second"></i> Conseils</a>
       </div>
     </header>
-    <section class="projets">
-      <div class="search-bar">
-        <form action="" method="">
-          <select name="travaux" id="travaux">
-            <option value="" disabled selected hidden>
-              Quels travaux souhaitez-vous réaliser
-            </option>
-          </select>
-          <select name="ville" id="ville">
-            <option value="" disabled selected hidden>
-              Choisissez une ville
-            </option>
-          </select>
-          <button type="submit">Trouver</button>
-        </form>
-      </div>
-      <div class="projets-group">
-        <div class="title">
-          <h1>Avez-vous un projet à publier?</h1>
-          <a href="#">s'inscrire maintenant</a>
+    <section class="login">
+      <div class="login-container">
+        <div class="login-form">
+          <h1>Connexion</h1>
+          <form action="">
+            <div class="input-container">
+              <i class="uil uil-envelope" style="color: #369c7e"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="input-container">
+              <i class="uil uil-lock-alt" style="color: #369c7e"></i>
+              <input type="password" placeholder="Mot de passe" />
+            </div>
+            <div class="input-container">
+              <button type="submit">Se connecter</button>
+            </div>
+            <div class="input-container">
+              <div>
+                <a href="#"><i class="uil uil-user"></i> Inscription</a>
+              </div>
+              <div>
+                <a href="#"
+                  ><i class="uil uil-lock"></i> Mot de passe oublié ?</a
+                >
+              </div>
+            </div>
+          </form>
         </div>
-        <div class="projets-group-list">
-          <div class="projet">
-            <h3>Project name</h3>
-            <h4 style="color: #369c7e">Particuler</h4>
-            <span><i class="uil uil-wrench"></i> Aluminum</span>
-            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
-          </div>
-          <div class="projet">
-            <h3>Project name</h3>
-            <h4 style="color: #369c7e">Particuler</h4>
-            <span><i class="uil uil-wrench"></i> Aluminum</span>
-            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
-          </div>
-          <div class="projet">
-            <h3>Project name</h3>
-            <h4 style="color: #369c7e">Particuler</h4>
-            <span><i class="uil uil-wrench"></i> Aluminum</span>
-            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
-          </div>
-          <div class="projet">
-            <h3>Project name</h3>
-            <h4 style="color: #369c7e">Particuler</h4>
-            <span><i class="uil uil-wrench"></i> Aluminum</span>
-            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
-          </div>
-          <div class="projet">
-            <h3>Project name</h3>
-            <h4 style="color: #369c7e">Particuler</h4>
-            <span><i class="uil uil-wrench"></i> Aluminum</span>
-            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
-          </div>
-          <div class="projet">
-            <h3>Project name</h3>
-            <h4 style="color: #369c7e">Particuler</h4>
-            <span><i class="uil uil-wrench"></i> Aluminum</span>
-            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
-          </div>
-          <div class="projet">
-            <h3>Project name</h3>
-            <h4 style="color: #369c7e">Particuler</h4>
-            <span><i class="uil uil-wrench"></i> Aluminum</span>
-            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
-          </div>
-          <div class="projet">
-            <h3>Project name</h3>
-            <h4 style="color: #369c7e">Particuler</h4>
-            <span><i class="uil uil-wrench"></i> Aluminum</span>
-            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
-          </div>
-          <div class="projet">
-            <h3>Project name</h3>
-            <h4 style="color: #369c7e">Particuler</h4>
-            <span><i class="uil uil-wrench"></i> Aluminum</span>
-            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
-          </div>
-          <div class="projet">
-            <h3>Project name</h3>
-            <h4 style="color: #369c7e">Particuler</h4>
-            <span><i class="uil uil-wrench"></i> Aluminum</span>
-            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
-          </div>
-          <div class="projet">
-            <h3>Project name</h3>
-            <h4 style="color: #369c7e">Particuler</h4>
-            <span><i class="uil uil-wrench"></i> Aluminum</span>
-            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
-          </div>
-          <div class="projet">
-            <h3>Project name</h3>
-            <h4 style="color: #369c7e">Particuler</h4>
-            <span><i class="uil uil-wrench"></i> Aluminum</span>
-            <a href="#"><i class="uil uil-comments"></i> Consulter</a>
-          </div>
-        </div>
+        <div class="login-image"></div>
       </div>
-      <!-- <div class="pagination">
-        <a href="#" style="color: #369c7e"
-          ><i class="uil uil-angle-left"></i>
-        </a>
-        <a href="#">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-
-        <a href="#" style="color: #369c7e"
-          ><i class="uil uil-angle-right"></i
-        ></a>
-      </div> -->
     </section>
     <footer class="footer">
       <div class="footer-content">
@@ -217,7 +144,5 @@
       </div>
       <h3 class="credit">Copyright &copy; 2022 Mooqf.com</h3>
     </footer>
-
-    <script src="js/script.js"></script>
   </body>
 </html>
