@@ -705,7 +705,8 @@ a {
 @media screen and (max-width: 967px) {
   .hero {
     height: 150vh;
-    width: 80%;
+    width: 90%;
+    padding-left: 2em;
   }
   .banner {
     flex-direction: column;
