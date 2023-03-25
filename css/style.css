@@ -1746,10 +1746,109 @@ form .input-container a:hover {
     align-items: center;
     justify-content: center;
   }
-  form .input-container a {
+  .login-form form .input-container a {
     color: #fff;
     text-align: center;
     cursor: pointer;
     font-size: 18px;
+  }
+}
+/**********************Register Css Strat here**************************/
+.register {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../images/register.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.register-form {
+  width: 35%;
+  height: 75%;
+  background-color: #1a1e67;
+  border-radius: 10%;
+  text-align: center;
+  margin-left: 3em;
+}
+.register-form h1 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 3px;
+  margin: 1.5em 0em;
+}
+.register-form form {
+  width: 100%;
+  height: 80%;
+  justify-content: center;
+}
+.register-form form .input-box {
+  width: 100%;
+  height: 8%;
+  position: relative;
+  margin: 14px 10px;
+}
+.input-box i {
+  position: absolute;
+  font-size: 20px;
+  top: 15%;
+  right: 15%;
+  color: #369c7e;
+}
+.input-box .uil-message {
+  color: #fff;
+  top: 85%;
+}
+.input-box .firstchild {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.input-box input {
+  width: 75%;
+  height: 50%;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 10px;
+}
+.input-box .firstchild input {
+  width: 34%;
+}
+/* .input-box .firstchild input:first-child {
+  margin-right: 20px;
+} */
+
+.input-box button {
+  width: 80%;
+  height: 100%;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  padding: 8px 5px 30px 5px;
+  background-color: #369c7e;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.input-box button:hover {
+  background-color: #1a4492;
+}
+@media screen and (max-width: 955px) {
+  .register-form {
+    width: 85%;
+    margin: auto;
+  }
+  .input-box button {
+    width: 50%;
+    height: 100%;
+  }
+  .input-box .uil-message {
+    color: #fff;
+    right: 30%;
   }
 }
