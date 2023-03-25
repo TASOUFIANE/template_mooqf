@@ -156,30 +156,40 @@ a {
   font-size: large;
 }
 /*********************Bottom bar end**************/
-.header-body {
+.search-bars {
   width: 100%;
-  height: 60%;
+  height: 200px;
   padding-bottom: 5em;
   background-color: #effaff;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 1.5em;
+  background-image: url("../images/search.png");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: 200px 250px;
 }
-.header-body h1 {
+.search-bars-content {
+  width: 60%;
+}
+.search-bars-content h1 {
   color: rgb(26, 30, 103);
+  font-size: 25px;
   font-weight: 600;
   padding-top: 2em;
   padding-bottom: 1em;
+  text-align: center;
 }
-.header-body form {
-  width: 80%;
+.search-bars-content form {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
 }
 
-.header-body select {
-  width: 40%;
+.search-bars-content select {
+  width: 80%;
   height: 3em;
   border: 1px solid #369c7e;
   border-radius: 20px;
@@ -189,8 +199,8 @@ a {
   padding-left: 8px;
 }
 
-.header-body button {
-  width: 15%;
+.search-bars-content button {
+  width: 30%;
   height: 3em;
   border: 1px solid #369c7e;
   border-radius: 20px;
@@ -200,15 +210,15 @@ a {
   margin-left: 1em;
   cursor: pointer;
 }
-.header-body button:hover {
+.search-bars-content button:hover {
   background-color: #11ae7f;
 }
 .menu-mobile {
   display: none;
   margin-left: 0 !important;
 }
-.header-body #ville {
-  width: 30%;
+.search-bars-content #ville {
+  width: 40%;
 }
 /*********************Header body end**************/
 /*********************Header responsive part**********************/
