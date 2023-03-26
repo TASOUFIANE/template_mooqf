@@ -247,6 +247,9 @@ a {
   .links {
     margin-top: 20px;
   }
+  .links a {
+    margin-left: 0.4em;
+  }
   .uil-bars {
     display: block;
   }
@@ -389,7 +392,7 @@ a {
 }
 @media screen and (max-width: 980px) {
   .jobs {
-    height: 110vh;
+    height: 115vh;
   }
   .jobs .container {
     flex-direction: row;
@@ -401,18 +404,14 @@ a {
     height: 100%;
     flex-direction: column;
     padding: 0 0;
+    width: 45%;
   }
   .jobs .container .job-row .job {
     width: 100%;
-    margin-bottom: 1.7em;
-  }
-  #job-middle {
-    margin-top: 2em;
+    margin-bottom: 1.5em;
   }
   .jobs .container .job-row .job span {
-    padding-top: 1em;
-    margin-top: 1em;
-    font-size: 15px;
+    font-size: 14px;
     padding-left: 5px;
   }
   .jobs h1:after {
@@ -420,7 +419,6 @@ a {
   }
   .jobs a {
     width: 30%;
-    margin-top: 0em;
   }
   .jobs h1:before {
     left: 8%;
@@ -706,7 +704,8 @@ a {
 }
 @media screen and (max-width: 967px) {
   .hero {
-    height: 150vh;
+    height: 145vh;
+    overflow: hidden;
   }
   .hero .banner {
     flex-direction: column;
@@ -716,7 +715,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    padding-left: 1.5em;
+    padding-left: 2em;
   }
   .hero-content-left h2 {
     font-size: 14px;
@@ -733,9 +732,13 @@ a {
   .hero-content {
     width: 85%;
     border-left: none;
-    flex-direction: row;
     border-top: 4px solid #1a1e67;
     margin-top: 4em;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .hero-content h2 {
+    margin-top: 1em;
   }
   /* .content-group .content {
     width: 33%;
@@ -861,7 +864,7 @@ a {
   .footer .newsletter button {
     padding: 0em 1em;
     top: 60%;
-    height: 49px;
+    height: 44px;
   }
   .footer a {
     color: #fff;
@@ -895,8 +898,8 @@ a {
 }
 @media screen and (max-width: 790px) {
   .footer .newsletter button {
-    height: 2.8em;
-    top: 61%;
+    height: 44px;
+    top: 60%;
     margin-right: 2.5em;
   }
   .footer .newsletter input {
