@@ -8,6 +8,7 @@
 }
 body {
   width: 100%;
+  overflow-x: hidden;
 }
 #myBtn {
   display: none;
@@ -388,11 +389,10 @@ a {
 }
 @media screen and (max-width: 980px) {
   .jobs {
-    height: 160vh;
+    height: 110vh;
   }
   .jobs .container {
     flex-direction: row;
-    justify-content: center;
   }
   .jobs h1 {
     margin-bottom: 1em;
@@ -400,18 +400,20 @@ a {
   .jobs .container .job-row {
     height: 100%;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     padding: 0 0;
   }
   .jobs .container .job-row .job {
     width: 100%;
-    margin-bottom: 2.5em;
+    margin-bottom: 1.7em;
+  }
+  #job-middle {
+    margin-top: 2em;
   }
   .jobs .container .job-row .job span {
-    padding-top: 2em;
-    margin-top: 1em;
+    padding-top: 1em;
+    margin-top: 0.9em;
     font-size: 15px;
+    padding-left: 5px;
   }
   .jobs h1:after {
     margin-bottom: 0em;
@@ -429,7 +431,7 @@ a {
   .jobs .container .job-row .job img {
     width: 85%;
     height: 85%;
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
   }
 }
 /*******************Cites Start***************************/
@@ -621,7 +623,7 @@ a {
 }
 @media screen and (max-width: 967px) {
   .testimontals {
-    height: 120vh;
+    height: 110vh;
   }
   .child {
     flex: 100%;
@@ -705,7 +707,6 @@ a {
 @media screen and (max-width: 967px) {
   .hero {
     height: 150vh;
-    padding-left: 2em;
   }
   .hero .banner {
     flex-direction: column;
@@ -715,18 +716,22 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    padding-left: 1.5em;
   }
   .hero-content-left h2 {
     font-size: 14px;
     padding-top: 3em;
-    margin-right: 1em;
+    margin-right: 0.5em;
   }
   .hero-content-left p {
     font-size: 12px;
     /* margin-right: 10em; */
   }
+  .hero .banner {
+    padding: 0em 1.5em;
+  }
   .hero-content {
-    width: 100%;
+    width: 85%;
     border-left: none;
     flex-direction: row;
     border-top: 4px solid #1a1e67;
@@ -736,7 +741,7 @@ a {
     width: 33%;
   } */
   .hero-content .content {
-    width: 80%;
+    width: 90%;
     height: 30%;
   }
 }
@@ -856,6 +861,7 @@ a {
   .footer .newsletter button {
     padding: 0em 1em;
     top: 60%;
+    height: 49px;
   }
   .footer a {
     color: #fff;
